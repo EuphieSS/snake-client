@@ -32,11 +32,9 @@ const connect = function () {
   return conn; //the return establishes connection
 };
 
-console.log("Connecting ...");
-connect();
+
 
 //exports the connect function using ES6 Shorthand syntax
 module.exports = {
-  net,
   connect,
 };
