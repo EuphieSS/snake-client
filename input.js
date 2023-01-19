@@ -31,6 +31,15 @@ const handleUserInput = function(key) { //runs when receive keyboard input from 
   if (key === 'd') {
     connection.write("Move: down");
   }
+  if (key === 'g') {
+    connection.write("Say: GG");
+  }
+  if (key === 'v') {
+    connection.write("Say: Sssssssnake!");
+  }
+  if (key === 'b') {
+    connection.write("Say: Challenge Accepted");
+  }
 };
 
 
